@@ -57,14 +57,38 @@ If this section grows too long, you may want to split it off into a separate fil
 ### Content
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
 
-### Media
-- The photos used in this site were obtained from ...
 youtube: https://www.youtube.com/channel/UC-zeaPnxZHE3EcTyVl1fTdw
 
 twitter: https://twitter.com/claris_staff?lang=en
 
 official website: https://www.clarismusic.jp/
 
+sony website: https://www.sonymusic.co.jp/artist/claris/
+
+spotify: https://open.spotify.com/artist/5htVtReJ3NAwcAdxdHpim3?si=qmJj5GxXQDy6HQjKjXgsQg
+
+font-awesome: https://fontawesome.com/
+
+fandom: https://jpop.fandom.com/wiki/ClariS
+
+
+### Media
+- The photos used in this site were obtained from ...
+https://soranews24.com/wp-content/uploads/sites/3/2020/10/CF-3.jpg
+
+https://img1.ak.crunchyroll.com/i/spire3/08dfdfb4877ef51f623d74113a03d6b11603253628_main.jpg
+
+https://leosigh.com/wp-content/uploads/2022/10/ClariS-performing-Alive-on-The-First-Take-channel.jpg
+
+https://i.ytimg.com/vi/SmvILpnM2U8/maxresdefault.jpg
+
+https://wallpapercave.com/wp/wp3860553.jpg
+
+
 ### Acknowledgements
 
 - I received inspiration for this project from X
+
+https://www.clarismusic.jp/
+
+https://www.sonymusic.co.jp/artist/claris/
