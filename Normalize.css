@@ -1,0 +1,34 @@
+.site-title{
+    padding: 70px 0;
+    text-align: center;
+    position: relative;
+    font-size: 400%;
+}
+
+.center{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+body,html{
+    height:100%;
+    margin: 0;
+    color:aliceblue;
+}
+
+.bg{
+    background-image: url("tokyo-tower.jpg");
+    left:0px;
+    top:0px;
+    position:absolute;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
