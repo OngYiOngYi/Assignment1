@@ -59,6 +59,11 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ### Media
 - The photos used in this site were obtained from ...
+youtube: https://www.youtube.com/channel/UC-zeaPnxZHE3EcTyVl1fTdw
+
+twitter: https://twitter.com/claris_staff?lang=en
+
+official website: https://www.clarismusic.jp/
 
 ### Acknowledgements
 
