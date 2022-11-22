@@ -13,6 +13,63 @@
     width: 50%;
 }
 
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+}
+
+.openbtn:hover {
+    background-color: #444;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+}
 
 body,html{
     height:100%;
@@ -21,7 +78,7 @@ body,html{
 }
 
 .bg{
-    background-image: url("tokyo-tower.jpg");
+    background-image: url("slideshow/slideshow2.jpg");
     left:0px;
     top:0px;
     position:absolute;
@@ -31,4 +88,118 @@ body,html{
     background-size: cover ;
     background-repeat: no-repeat;
     background-attachment: scroll;
+}
+
+/*
+img{
+    left:0px;
+    top:0px;
+    position:absolute;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    background-size: cover ;
+
+}
+*/
+
+.flex {
+    margin: 0;
+    display: flex;
+    border: 3px solid #333;
+    margin-bottom: 0rem;
+}
+.flex h3 {
+    font-size: 1.5rem;
+    margin-top: 0;
+    font-weight: 400;
+    color:black;
+}
+.flex p {
+    font-size: 1rem;
+    line-height: 1.4;
+    font-weight: 400;
+    color:black;
+}
+.flex div:first-child {
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+}
+.flex div:last-child {
+    margin: 2rem;
+    flex: 2;
+}
+.flex p:last-of-type {
+    margin-bottom: 0;
+}
+.flex:first-of-type div:first-child {
+    background-image: url("https://img.freepik.com/premium-photo/astronaut-outer-open-space-planet-earth-stars-provide-background-erforming-space-planet-earth-sunrise-sunset-our-home-iss-elements-this-image-furnished-by-nasa_150455-16829.jpg?w=2000");
+    top:0;
+    left:0;
+}
+.flex:nth-child(odd) {
+    flex-direction: row;
+}
+
+
+
+@media all and (max-width: 600px) {
+    .flex div { flex: 1 !important; }
+}
+
+@media all and (max-width: 400px) {
+    .flex { flex-direction: column; } 
+    .flex div:first-child { min-height: 200px; }
+}
+
+.flex1 {
+    margin: 0;
+    display: flex;
+    border: 3px solid #333;
+    margin-bottom: 0rem;
+}
+.flex1 h3 {
+    font-size: 1.5rem;
+    margin-top: 0;
+    font-weight: 400;
+    color:black;
+}
+.flex1 p {
+    font-size: 1rem;
+    line-height: 1.4;
+    font-weight: 400;
+    color:black;
+}
+.flex1 div:first-child {
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+}
+.flex1 div:last-child {
+    margin: 2rem;
+    flex: 2;
+}
+.flex1 p:last-of-type {
+    margin-bottom: 0;
+}
+.flex1:first-of-type div:first-child {
+    background-image: url("https://www.rmg.co.uk/sites/default/files/styles/max_width_1440/public/2022-07/STScI-01G79RF5F5TPZJSDT3Y640XNQ1-southern-ring-nebula.jpg?itok=CLW7jhNZ");
+    top:0;
+    left:0;
+}
+.flex1:nth-child(odd) {
+    flex-direction: row;
+}
+
+
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
 }
