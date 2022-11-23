@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Profile</title>
+        <link rel = "stylesheet" href = "Normalize.css" type = "text/css">
+        <script type="module" src="script.js" defer></script>
+        <script src="https://kit.fontawesome.com/2d132fda9d.js" crossorigin="anonymous"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+
+            .fa-brands{
+                font-size: 200%;
+                padding: 10%;
+                border-radius: 50%;
+                color:#282828;
+            }
+            .fa-solid{
+                font-size: 200%;
+                padding:10%;
+                border-radius: 50%;
+                color:#282828;
+            }
+            .fa-twitter:hover{
+                background-color: #1DA1F2;
+            }
+            .fa-youtube:hover{
+                background-color: #FF0000;
+            }
+            .fa-spotify:hover{
+                background-color: #1DB954;
+            }
+            .fa-circle-info:hover{
+                background-color: blue;
+            }
+            .fa-music:hover{
+                background-color:lightslategrey ;
+            }
+            .profile{
+                text-align: center;
+                font-size: 200%;
+                border: none;
+                padding:3%;
+            }
+            .center{
+                text-align: center;
+                list-style-position: inside;
+            }
+            
+            li{
+                display:inline-block;
+                margin:0 40px;
+            }
+            ul.sort{
+                list-style-type:none;
+                padding:0;
+                margin:0;
+                justify-content: space-between;
+            }
+
+            .flex-container{
+                display:flex;
+                justify-content: space-around;
+                background-color: #6DABE4;
+                position: relative;
+            }
+
+            .title{
+                color:black;
+                position: relative;
+                padding-left: 14%;
+            }
+            .header{
+                padding:1%;
+                text-align: center;
+                position: relative;
+            }
+            .sort{
+                list-style-type: none;
+                margin: 0;
+                padding:0;
+            }
+            .column{
+                padding:none;
+            }
+            .column1{
+                padding:none;
+            }
+            .flex-container{
+                display:flex;
+                justify-content: space-between;
+                align-items: stretch;
+            }
+
+
+        </style>
+
+    </head>
+
+    <body>
+
+        <div class="flex-container">
+            <div class="move">
+                <div id="mySidebar" class="sidebar">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                    <a href="index.html">Home</a>
+                    <a href="profile.html">Profile</a>
+                    <a href="songs.html">Songs</a>
+                    <a href="shows.html">Shows</a>
+                </div>
+                  
+                <div id="main">
+                    <button class="openbtn" onclick="openNav()">☰ Menu</button>  
+                </div>
+                  
+                <script>
+                  function openNav() {
+                    document.getElementById("mySidebar").style.width = "250px";
+                    document.getElementById("main").style.marginLeft = "250px";
+                  }
+                  
+                  function closeNav() {
+                    document.getElementById("mySidebar").style.width = "0";
+                    document.getElementById("main").style.marginLeft= "0";
+                  }
+                </script>
+            </div>
+
+            <div class="title">
+                <h1>Profile</h1>
+            </div>
+
+            <nav class="header">
+                <ul class="sort">
+                    <li><a href="https://twitter.com/claris_staff?lang=en" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="https://www.youtube.com/channel/UC-zeaPnxZHE3EcTyVl1fTdw" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+                    <li><a href="https://open.spotify.com/artist/5htVtReJ3NAwcAdxdHpim3?si=qmJj5GxXQDy6HQjKjXgsQg" target="_blank"><i class="fa-brands fa-spotify"></i></a></li>
+                </ul>
+            </nav>
+        </div>
+        
+
+        <div class="column" style="background-color:#F8C8DC">
+            <figure class="flex">
+                  <div></div>
+                  <div>
+                    <h3>Clara (クララ)</h3>
+                    <p>Clara is associated with the moon and rabbit as her character image. Her image color is Pastel Pink. Her special skills including piano and sweets making. She is not good with reptiles and is sometimes referred to as a rain woman, but actually isn't so as it is often sunny when she is on private trips. Clara often listens to Hatsune Miku, Ikimonogakari, and YUI songs. She has been attending music school since kindergarten, and from that time she wanted to be a singer. She thought it was fate when Alice later enrolled in the same music school and the two of them met. Both of them never imagined their debut and realized that it was the first song they made when their name came out on credit. Clara has a wide vocal range and can handle both high and low tones with a clear voice.</p>
+                  </div>
+            </figure>
+        </div>
+
+        <div class="column1" style="background-color:#C1E1C1">
+            <figure class="flex1">
+                  <div></div>
+                  <div>
+                    <h3>Karen (カレン)</h3>
+                    <p>Karen is associated with the star and cat as her character image. Her image color is Pastel Green. She is a classmate of the same music school as Clara, and both started to exchange contact after co-starring on the same stage. After the graduation of Alice, she was nominated for ClariS and decided to join because she was acquainted with Clara's practice alone. She has been longing for the entertainment world, and respected actress Karina and Nakama Yukie. Prior to joining ClariS, Karen was collecting CDs as a fan as she longing for their cute songs and illustrations. She once said that on a day when she was watching a music program, she knew that "irony" was sung by active junior high school students, and by the time it was when her dream wasn't clear yet, she was really inspired as she thought that there are people in her age who are fulfilling their dreams, so she has to face herself properly. Karen is good at dancing and has performed tap dance live. She is fear of heights and not good with lightning.</p>
+                  </div>
+            </figure>
+        </div>
+    </body>
+
+</html>
