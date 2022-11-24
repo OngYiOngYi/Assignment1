@@ -192,6 +192,45 @@ img{
     flex-direction: row;
 }
 
+.flex2 {
+    margin: 0;
+    display: flex;
+    border: none;
+    margin-bottom: 0rem;
+}
+.flex2 h3 {
+    font-size: 1.5rem;
+    margin-top: 0;
+    font-weight: 400;
+    color:black;
+}
+.flex2 p {
+    font-size: 1rem;
+    line-height: 1.4;
+    font-weight: 400;
+    color:black;
+}
+.flex2 div:first-child {
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+}
+.flex2 div:last-child {
+    margin: 2rem;
+    flex: 2;
+}
+.flex2 p:last-of-type {
+    margin-bottom: 0;
+}
+.flex2:first-of-type div:first-child {
+    background-image: url("https://images.unsplash.com/photo-1471879832106-c7ab9e0cee23?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&w=1000&q=80");
+    top:0;
+    left:0;
+}
+.flex2:nth-child(odd) {
+    flex-direction: row;
+}
+
 
 @keyframes fade {
     from {opacity: .4} 
