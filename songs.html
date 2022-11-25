@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Albums</title>
+        <link rel = "stylesheet" href = "Normalize.css" type = "text/css">
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Passion+One:wght@700&display=swap" rel="stylesheet">
+
+        <script src="https://kit.fontawesome.com/2d132fda9d.js" crossorigin="anonymous"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            .flex-container{
+                display: flex;
+                margin:auto;
+                margin-bottom: 2%;
+                justify-content: start;
+                align-items: center;
+                background-color: #6DABE4;
+                position: relative; 
+                padding:1.5%; 
+                top:0;
+                left:0;
+                right:0;
+            }
+            .title{
+                color:black;
+                font-family: 'Passion One', cursive;
+                position: relative;
+                margin:auto;
+                padding-right: 10%;
+            }
+            .yes{
+                text-decoration: none;
+            }
+            .yes:hover{
+                color:#1DB954;
+                transition-duration: 0.5s;
+            }
+            button{
+                text-decoration: none;
+                border: none;
+                background-color: #f44336;
+                text-align: center;
+                display: inline-block;
+                font-size: 300%;
+                padding:0.5%;
+            }
+            button:hover{
+                background-color: white;
+                transition-duration: 1.3s;
+            }
+            .oalb{
+                color:white;
+                text-decoration: none;
+            }
+            .oalb:hover{
+                color:red;
+                transition-duration: 1.5s;
+            }
+
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            h3{
+                font-family: 'Lobster', cursive;
+                text-align: center;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="flex-container">
+            <div class="move">
+                <div id="mySidebar" class="sidebar">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                    <a href="index.html">Home</a>
+                    <a href="profile.html">Profile</a>
+                    <a href="songs.html">Albums</a>
+                    <a href="shows.html">Shows</a>
+                </div>
+                  
+                <div id="main">
+                    <button class="openbtn" onclick="openNav()">☰ Menu</button>  
+                </div>
+                  
+                <script>
+                  function openNav() {
+                    document.getElementById("mySidebar").style.width = "250px";
+                    document.getElementById("main").style.marginLeft = "250px";
+                  }
+                  
+                  function closeNav() {
+                    document.getElementById("mySidebar").style.width = "0";
+                    document.getElementById("main").style.marginLeft= "0";
+                  }
+                </script>
+            </div>
+
+            <div class="title">
+                <h1>Albums</h1>
+            </div>
+        </div>
+
+        <div class="column1">
+            <figure class="alb1">
+                  <div></div>
+                  <div>
+                    <h3><a class="yes" href="https://open.spotify.com/album/4bRHjrsaHEtOVdxmZrFAy7?si=cv_FjBIyTZ-j6UrtQSm5Yg" target="_blank">Birthday [2012]</a></h3>
+                    <p>Certifications: RIAJ(Gold)</br>
+                        Birthday was released on April 11, 2012 in three editions: a regular CD version, a two-CD limited edition and a CD+DVD limited edition.For the week of April 9, 2012 on Oricon's weekly albums chart, Birthday was reported to have sold 53,909 copies in its first week of sales, peaking at No. 2, and charted for 28 weeks. In May 2012, Birthday was awarded a Gold Disc by the Recording Industry Association of Japan for having exceeded 100,000 copies shipped in a single year.
+                    </p>
+                  </div>
+            </figure>
+        </div>
+
+        <div class="column3">
+            <figure class="alb3">
+                  <div></div>
+                  <div>
+                    <h3><a class="yes" href="https://open.spotify.com/album/33dTcMAujg3u1lpBsbUsWx?si=oY_CK3GuSyWIvjtVL7KaLQ" target="_blank">Second Story [2013]</a></h3>
+                    <p>
+                        Second Story was released on June 26, 2013 in three editions: a regular CD version and two CD+DVD limited editions. One of the limited edition versions also came bundled with Graphig paper figures of ClariS, while the other limited edition version came with a special album sleeve featuring art of ClariS drawn by Hideyuki Morioka of Shaft. For the week of June 24, 2013 on Oricon's weekly albums chart, Second Story was reported to have sold 38,940 copies in its first week of sales, peaking at No. 6, and charted for 13 weeks.
+                    </p>
+                  </div>
+            </figure>
+        </div>
+
+        <div class="column2">
+            <figure class="alb2">
+                  <div></div>
+                  <div>
+                    <h3><a class="yes" href="https://open.spotify.com/album/66y4Wxg2FCFTr6g67NXfYY?si=8GMDbkT2QiKtIHV-ej5s4w" target="_blank">Party Time [2014]</a></h3>
+                    <p>
+                        Party Time was released on June 4, 2014, in three editions: a regular CD version and two limited editions. It was the last time Clara and Alice performed as ClariS, with Alice leaving the duo. The album contains 12 music tracks, three of which were previously released on three of ClariS' singles. For the week of June 2, 2014 on Oricon's weekly albums chart, Party Time was reported to have sold 43,146 copies in its first week of sales, peaking at No. 2, and charted for 12 weeks.
+                    </p>
+                  </div>
+            </figure>
+        </div><br><br>
+        
+        <div class="center">
+            <button><a class="oalb" href="songs2.html">Other Albums</a></button>
+        </div><br><br>
+        
+    </body>
+</html>
