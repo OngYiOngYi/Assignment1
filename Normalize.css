@@ -359,3 +359,197 @@ img{
 .alb3:nth-child(odd) {
     flex-direction: row-reverse;
 }
+.ani1 {
+    margin: 0;
+    display: flex;
+    padding:2%;
+    margin-bottom: 2rem;
+}
+.ani1 h3 {
+    font-size: 1.5rem;
+    margin-top: 0;
+    font-weight: 400;
+    color:black;
+}
+.ani1 p {
+    font-size: 1rem;
+    line-height: 1.4;
+    font-weight: 400;
+    color:black;
+}
+.ani1 div:first-child {
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+}
+.ani1 div:last-child {
+    margin: 0.5rem;
+    flex: 2;
+}
+.ani1 p:last-of-type {
+    margin-bottom: 0;
+}
+.ani1:first-of-type div:first-child {
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/663/129/312/anime-oreimo-kirino-kousaka-ky%C5%8Dsuke-k%C5%8Dsaka-hd-wallpaper-preview.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.ani1:nth-child(odd) {
+    flex-direction: row;
+}
+
+.ani2 {
+    margin: 0;
+    display: flex;
+    padding:2%;
+    margin-bottom: 2rem;
+}
+.ani2 h3 {
+    font-size: 1.5rem;
+    margin-top: 0;
+    font-weight: 400;
+    color:black;
+}
+.ani2 p {
+    font-size: 1rem;
+    line-height: 1.4;
+    font-weight: 400;
+    color:black;
+}
+.ani2 div:first-child {
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+}
+.ani2 div:last-child {
+    margin: 0.5rem;
+    flex: 2;
+}
+.ani2 p:last-of-type {
+    margin-bottom: 0;
+}
+.ani2:first-of-type div:first-child {
+    background-image: url("https://i0.wp.com/news.qoo-app.com/en/wp-content/uploads/sites/3/2018/04/18041308261587.jpg");
+    background-repeat: no-repeat;
+    background-size: 90%;
+}
+.ani2:nth-child(odd) {
+    flex-direction: row-reverse;
+}
+
+.ani3 {
+    margin: 0;
+    display: flex;
+    padding:2%;
+    margin-bottom: 2rem;
+}
+.ani3 h3 {
+    font-size: 1.5rem;
+    margin-top: 0;
+    font-weight: 400;
+    color:black;
+}
+.ani3 p {
+    font-size: 1rem;
+    line-height: 1.4;
+    font-weight: 400;
+    color:black;
+}
+.ani3 div:first-child {
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+}
+.ani3 div:last-child {
+    margin: 0.5rem;
+    flex: 2;
+}
+.ani3 p:last-of-type {
+    margin-bottom: 0;
+}
+.ani3:first-of-type div:first-child {
+    background-image: url("https://i0.wp.com/deusexmagicalgirl.com/wp-content/uploads/2016/09/madoka-magica-karmic-ties-knots-lines-tangled-timelines.jpg?fit=750%2C320&ssl=1");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.ani3:nth-child(odd) {
+    flex-direction: row;
+}
+
+.ani4 {
+    margin: 0;
+    display: flex;
+    padding:2%;
+    margin-bottom: 2rem;
+}
+.ani4 h3 {
+    font-size: 1.5rem;
+    margin-top: 0;
+    font-weight: 400;
+    color:black;
+}
+.ani4 p {
+    font-size: 1rem;
+    line-height: 1.4;
+    font-weight: 400;
+    color:black;
+}
+.ani4 div:first-child {
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+}
+.ani4 div:last-child {
+    margin: 0.5rem;
+    flex: 2;
+}
+.ani4 p:last-of-type {
+    margin-bottom: 0;
+}
+.ani4:first-of-type div:first-child {
+    background-image: url("https://tryhardguides.com/wp-content/uploads/2022/07/featured-lycoris-recoil-an-action-and-comedy-anime-premiering-july-2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.ani4:nth-child(odd) {
+    flex-direction: row;
+}
+
+.ani5 {
+    margin: 0;
+    display: flex;
+    padding:2%;
+    margin-bottom: 2rem;
+}
+.ani5 h3 {
+    font-size: 1.5rem;
+    margin-top: 0;
+    font-weight: 400;
+    color:black;
+}
+.ani5 p {
+    font-size: 1rem;
+    line-height: 1.4;
+    font-weight: 400;
+    color:black;
+}
+.ani5 div:first-child {
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+}
+.ani5 div:last-child {
+    margin: 0.5rem;
+    flex: 2;
+}
+.ani5 p:last-of-type {
+    margin-bottom: 0;
+}
+.ani5:first-of-type div:first-child {
+    background-image: url("https://i.pinimg.com/originals/c3/06/2d/c3062d206717614de1302597873f6507.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.ani5:nth-child(odd) {
+    flex-direction: row-reverse;
+}
