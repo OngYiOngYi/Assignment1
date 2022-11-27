@@ -1,8 +1,13 @@
+
 .site-title{
     padding: 70px 0;
     text-align: center;
     position: relative;
     font-size: 400%;
+}
+
+.yes{
+    text-decoration: none;
 }
 
 .center{
@@ -12,6 +17,8 @@
     margin-right: auto;
     width: 50%;
 }
+
+/*Menu*/
 
 .sidebar {
     height: 100%;
@@ -79,6 +86,7 @@ body,html{
 
 .bg{
     background-image: url("slideshow/slideshow2.jpg");
+    filter:brightness(75%);
     left:0px;
     top:0px;
     position:absolute;
@@ -106,7 +114,7 @@ img{
 .flex {
     margin: 0;
     display: flex;
-    border: 3px solid #333;
+    border: none;
     margin-bottom: 0rem;
 }
 .flex h3 {
@@ -142,21 +150,10 @@ img{
     flex-direction: row;
 }
 
-
-
-@media all and (max-width: 600px) {
-    .flex div { flex: 1 !important; }
-}
-
-@media all and (max-width: 400px) {
-    .flex { flex-direction: column; } 
-    .flex div:first-child { min-height: 200px; }
-}
-
 .flex1 {
     margin: 0;
     display: flex;
-    border: 3px solid #333;
+    border: none;
     margin-bottom: 0rem;
 }
 .flex1 h3 {
@@ -229,18 +226,6 @@ img{
 }
 .flex2:nth-child(odd) {
     flex-direction: row;
-}
-
-
-@keyframes fade {
-    from {opacity: .4} 
-    to {opacity: 1}
-}
-
-
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-    .prev, .next,.text {font-size: 11px}
 }
 
 .alb1 {
@@ -359,6 +344,7 @@ img{
 .alb3:nth-child(odd) {
     flex-direction: row-reverse;
 }
+
 .ani1 {
     margin: 0;
     display: flex;
@@ -390,7 +376,7 @@ img{
     margin-bottom: 0;
 }
 .ani1:first-of-type div:first-child {
-    background-image: url("https://c4.wallpaperflare.com/wallpaper/663/129/312/anime-oreimo-kirino-kousaka-ky%C5%8Dsuke-k%C5%8Dsaka-hd-wallpaper-preview.jpg");
+    background-image: url("images/oreimo.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -429,7 +415,7 @@ img{
     margin-bottom: 0;
 }
 .ani2:first-of-type div:first-child {
-    background-image: url("https://i0.wp.com/news.qoo-app.com/en/wp-content/uploads/sites/3/2018/04/18041308261587.jpg");
+    background-image: url("images/nisekoi.webp");
     background-repeat: no-repeat;
     background-size: 90%;
 }
@@ -468,7 +454,7 @@ img{
     margin-bottom: 0;
 }
 .ani3:first-of-type div:first-child {
-    background-image: url("https://i0.wp.com/deusexmagicalgirl.com/wp-content/uploads/2016/09/madoka-magica-karmic-ties-knots-lines-tangled-timelines.jpg?fit=750%2C320&ssl=1");
+    background-image: url("images/madokamagica.webp");
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -507,7 +493,7 @@ img{
     margin-bottom: 0;
 }
 .ani4:first-of-type div:first-child {
-    background-image: url("https://tryhardguides.com/wp-content/uploads/2022/07/featured-lycoris-recoil-an-action-and-comedy-anime-premiering-july-2.jpg");
+    background-image: url("images/lycoreco.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -546,7 +532,7 @@ img{
     margin-bottom: 0;
 }
 .ani5:first-of-type div:first-child {
-    background-image: url("https://i.pinimg.com/originals/c3/06/2d/c3062d206717614de1302597873f6507.jpg");
+    background-image: url("images/eromangasensei.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
 }
