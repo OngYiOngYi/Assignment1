@@ -31,20 +31,75 @@
             }
 
             .fa-solid{
-                font-size: 100%;
-                padding:4%;
+                font-size: 200%;
+                padding:10%;
                 border-radius: 50%;
                 color:#282828;
             }
-
-            .fa-circle-info:hover{
-                background-color: blue;
+            .fa-brands{
+                font-size: 200%;
+                padding: 10%;
+                border-radius: 50%;
+                color:#282828;
             }
+            .fa-twitter:hover{
+                background-color: #1DA1F2;
+            }
+            .fa-youtube:hover{
+                background-color: #FF0000;
+            }
+            .fa-spotify:hover{
+                background-color: #1DB954;
+            }
+            .fa-circle-info:hover{
+                background-color: #6DABE4;
+            }
+            .fa-music:hover{
+                background-color:lightslategrey ;
+            }
+            .sort{
+                list-style-type: none;
+                position: relative;
+                justify-content: space-between;
+                margin: 0;
+                padding:0;
+            }
+
+            .footer{
+                position: fixed;
+                width:100%;
+                padding: 1%;
+                text-align: center;
+                color: white;
+                margin-top: 1%;
+            }
+            .l{
+                display:inline-block;
+                margin: 0 10%;
+            }
+            @media all and (max-width: 400px) {
+                .site-title{
+                    flex:auto;
+                }
+                .footer{
+                    position: absolute;
+                    bottom: 0;
+                    width:100%;
+                    padding: 1%;
+                    text-align: center;
+                    color: white;
+                    margin-top: 1%;
+                }
+                .bg{
+                    background-size: cover;
+                }
+            }
+
         </style>
     </head>
 
     <body>
-        <div class="flex-container">
+        <div class="title">
             <div>
                 <div id="mySidebar" class="sidebar">
                     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
@@ -75,6 +130,14 @@
         <br><div class="site-title" style="color:white ;">ClariS</div>
         <div class="site-description" style="color:white">Japanese pop music duo formed in 2009 with Clara and Alice from Hokkaido</div>
         <img class="bg"><br><br><br>
+        <div class="footer">
+            <ul class="sort">
+                <li class="l"><a href="https://twitter.com/claris_staff?lang=en" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+                <li class="l"><a href="https://www.youtube.com/channel/UC-zeaPnxZHE3EcTyVl1fTdw" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+                <li class="l"><a href="https://open.spotify.com/artist/5htVtReJ3NAwcAdxdHpim3?si=qmJj5GxXQDy6HQjKjXgsQg" target="_blank"><i class="fa-brands fa-spotify"></i></a></li>
+                <li class="l"><a href="https://www.clarismusic.jp/" target="_blank"><i class="fa-solid fa-circle-info"></i></a></li>
+            </ul>
+        </div>
 
     </body>
 </html>

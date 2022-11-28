@@ -6,6 +6,14 @@
     font-size: 400%;
 }
 
+.title{
+    color:black;
+    font-family: 'Passion One', cursive;
+    position: relative;
+    margin:auto;
+    padding-right: 10%;
+}
+
 .yes{
     text-decoration: none;
 }
@@ -96,20 +104,8 @@ body,html{
     background-size: cover ;
     background-repeat: no-repeat;
     background-attachment: scroll;
+    background-position: center center;
 }
-
-/*
-img{
-    left:0px;
-    top:0px;
-    position:absolute;
-    z-index: -1;
-    height: 100%;
-    width: 100%;
-    background-size: cover ;
-
-}
-*/
 
 .flex {
     margin: 0;
@@ -148,6 +144,17 @@ img{
 }
 .flex:nth-child(odd) {
     flex-direction: row;
+}
+
+@media all and (max-width: 600px) {
+    .flex div { flex: 1; }
+}
+@media all and (max-width: 400px) {
+    .flex { flex-direction: column; } 
+    .flex:nth-child(odd){
+        flex-direction: column;
+    }
+    .flex div:first-child { min-height: 200px; }
 }
 
 .flex1 {
@@ -189,6 +196,17 @@ img{
     flex-direction: row;
 }
 
+@media all and (max-width: 600px) {
+    .flex1 div { flex: 1; }
+}
+@media all and (max-width: 400px) {
+    .flex1 { flex-direction: column; } 
+    .flex1:nth-child(odd){
+        flex-direction: column;
+    }
+    .flex1 div:first-child { min-height: 200px; }
+}
+
 .flex2 {
     margin: 0;
     display: flex;
@@ -226,6 +244,17 @@ img{
 }
 .flex2:nth-child(odd) {
     flex-direction: row;
+}
+
+@media all and (max-width: 600px) {
+    .flex2 div { flex: 1; }
+}
+@media all and (max-width: 400px) {
+    .flex2 { flex-direction: column; } 
+    .flex2:nth-child(odd){
+        flex-direction: column;
+    }
+    .flex2 div:first-child { min-height: 200px; }
 }
 
 .alb1 {
@@ -267,6 +296,17 @@ img{
     flex-direction: row;
 }
 
+@media all and (max-width: 600px) {
+    .alb1 div { flex: 1; }
+}
+@media all and (max-width: 400px) {
+    .alb1 { flex-direction: column; } 
+    .alb1:nth-child(odd){
+        flex-direction: column;
+    }
+    .alb1 div:first-child { min-height: 200px; }
+}
+
 .alb2 {
     margin: 0;
     display: flex;
@@ -304,6 +344,17 @@ img{
 }
 .alb2:nth-child(odd) {
     flex-direction: row;
+}
+
+@media all and (max-width: 600px) {
+    .alb2 div { flex: 1; }
+}
+@media all and (max-width: 400px) {
+    .alb2 { flex-direction: column; } 
+    .alb2:nth-child(odd){
+        flex-direction: column;
+    }
+    .alb2 div:first-child { min-height: 200px; }
 }
 
 .alb3 {
@@ -345,6 +396,17 @@ img{
     flex-direction: row-reverse;
 }
 
+@media all and (max-width: 600px) {
+    .alb3 div { flex: 1; }
+}
+@media all and (max-width: 400px) {
+    .alb3 { flex-direction: column; } 
+    .alb3:nth-child(odd){
+        flex-direction: column;
+    }
+    .alb3 div:first-child { min-height: 200px; }
+}
+
 .ani1 {
     margin: 0;
     display: flex;
@@ -382,6 +444,17 @@ img{
 }
 .ani1:nth-child(odd) {
     flex-direction: row;
+}
+
+@media all and (max-width: 600px) {
+    .ani1 div { flex: 1; }
+}
+@media all and (max-width: 400px) {
+    .ani1 { flex-direction: column; } 
+    .ani1:nth-child(odd){
+        flex-direction: column;
+    }
+    .ani1 div:first-child { min-height: 200px; }
 }
 
 .ani2 {
@@ -423,6 +496,17 @@ img{
     flex-direction: row-reverse;
 }
 
+@media all and (max-width: 600px) {
+    .ani2 div { flex: 1; }
+}
+@media all and (max-width: 400px) {
+    .ani2 { flex-direction: column; } 
+    .ani2:nth-child(odd){
+        flex-direction: column;
+    }
+    .ani2 div:first-child { min-height: 200px; }
+}
+
 .ani3 {
     margin: 0;
     display: flex;
@@ -460,6 +544,17 @@ img{
 }
 .ani3:nth-child(odd) {
     flex-direction: row;
+}
+
+@media all and (max-width: 600px) {
+    .ani3 div { flex: 1; }
+}
+@media all and (max-width: 400px) {
+    .ani3 { flex-direction: column; } 
+    .ani3:nth-child(odd){
+        flex-direction: column;
+    }
+    .ani3 div:first-child { min-height: 200px; }
 }
 
 .ani4 {
@@ -501,6 +596,17 @@ img{
     flex-direction: row;
 }
 
+@media all and (max-width: 600px) {
+    .ani4 div { flex: 1; }
+}
+@media all and (max-width: 400px) {
+    .ani4 { flex-direction: column; } 
+    .ani4:nth-child(odd){
+        flex-direction: column;
+    }
+    .ani4 div:first-child { min-height: 200px; }
+}
+
 .ani5 {
     margin: 0;
     display: flex;
@@ -538,4 +644,15 @@ img{
 }
 .ani5:nth-child(odd) {
     flex-direction: row-reverse;
+}
+
+@media all and (max-width: 600px) {
+    .ani5 div { flex: 1; }
+}
+@media all and (max-width: 400px) {
+    .ani5 { flex-direction: column; } 
+    .ani5:nth-child(odd){
+        flex-direction: column;
+    }
+    .ani5 div:first-child { min-height: 200px; }
 }
