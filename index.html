@@ -73,7 +73,15 @@
                 display:inline-block;
                 margin: 0 10%;
             }
-
+            .center{
+                display:block;
+                justify-content: center;
+            }
+            @media screen and (max-width: 414px) {
+                .bg{
+                    background-image: none;
+                }
+            }
         </style>
     </head>
 
@@ -85,7 +93,7 @@
                     <a href="index.html">Home</a>
                     <a href="profile.html">Profile</a>
                     <a href="songs.html">Albums</a>
-                    <a href="shows.html">Shows</a>
+                    <a href="event.html">Events</a>
                 </div>
                   
                 <div id="main">
@@ -106,9 +114,14 @@
             </div>
         </div>
 
-        <br><div class="site-title" style="color:white ;">ClariS</div>
-        <div class="site-description" style="color:white">Japanese pop music duo formed in 2009 with Clara and Alice from Hokkaido</div>
-        <img class="bg"><br><br><br>
+        <br>
+        <img class="bg">
+        <div class="center">
+            <div class="site-title" style="color:black ;">ClariS</div>
+            <div class="site-description" style="color:white">Japanese pop music duo formed in 2009 with Clara and Alice from Hokkaido</div>
+        </div>
+        
+        
         <div class="footer">
             <ul class="sort">
                 <li class="l"><a href="https://twitter.com/claris_staff?lang=en" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>

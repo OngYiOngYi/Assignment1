@@ -1,17 +1,27 @@
+.flex-container{
+    display: flex;
+    margin:auto;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #6DABE4;
+    position: relative; 
+    padding:1.5%; 
+    top:0;
+    left:0;
+    right:0;
+}
 
-.site-title{
-    padding: 70px 0;
-    text-align: center;
-    position: relative;
-    font-size: 400%;
+.move{
+    z-index: 2;
 }
 
 .title{
+    padding-right:7%;
     color:black;
+    font-size: 175%;
     font-family: 'Passion One', cursive;
     position: relative;
     margin:auto;
-    padding-right: 10%;
 }
 
 .yes{
@@ -87,7 +97,6 @@
 }
 
 body,html{
-    height:100%;
     margin: 0;
     color:aliceblue;
 }
@@ -189,8 +198,7 @@ body,html{
 }
 .flex1:first-of-type div:first-child {
     background-image: url("slideshow/slideshow5.jpg");
-    top:0;
-    left:0;
+    
 }
 .flex1:nth-child(odd) {
     flex-direction: row;
@@ -438,7 +446,7 @@ body,html{
     margin-bottom: 0;
 }
 .ani1:first-of-type div:first-child {
-    background-image: url("images/oreimo.jpg");
+    background-image: url("oreimo.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -488,7 +496,7 @@ body,html{
     margin-bottom: 0;
 }
 .ani2:first-of-type div:first-child {
-    background-image: url("images/nisekoi.webp");
+    background-image: url("nisekoi.webp");
     background-repeat: no-repeat;
     background-size: 90%;
 }
@@ -538,7 +546,7 @@ body,html{
     margin-bottom: 0;
 }
 .ani3:first-of-type div:first-child {
-    background-image: url("images/madokamagica.webp");
+    background-image: url("madokamagica.webp");
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -588,7 +596,7 @@ body,html{
     margin-bottom: 0;
 }
 .ani4:first-of-type div:first-child {
-    background-image: url("images/lycoreco.jpg");
+    background-image: url("lycoreco.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -638,7 +646,7 @@ body,html{
     margin-bottom: 0;
 }
 .ani5:first-of-type div:first-child {
-    background-image: url("images/eromangasensei.jpg");
+    background-image: url("eromangasensei.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -655,4 +663,154 @@ body,html{
         flex-direction: column;
     }
     .ani5 div:first-child { min-height: 200px; }
+}
+
+.event1 {
+    margin: 0;
+    display: flex;
+    padding:2%;
+    margin-bottom: 2rem;
+}
+.event1 h3 {
+    font-size: 1.5rem;
+    margin-top: 0;
+    font-weight: 400;
+    color:black;
+}
+.event1 p {
+    font-size: 1rem;
+    line-height: 1.4;
+    font-weight: 400;
+    color:black;
+}
+.event1 div:first-child {
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+}
+.event1 div:last-child {
+    margin: 0.5rem;
+    flex: 2;
+}
+.event1 p:last-of-type {
+    margin-bottom: 0;
+}
+.event1:first-of-type div:first-child {
+    background-image: url("images/tokyodome1.webp");
+    background-repeat: no-repeat;
+    background-size: 70%;
+}
+.event1:nth-child(odd) {
+    flex-direction: row;
+}
+
+@media all and (max-width: 600px) {
+    .event1 div { flex: 1; }
+}
+@media all and (max-width: 400px) {
+    .event1 { flex-direction: column; } 
+    .event1:nth-child(odd){
+        flex-direction: column;
+    }
+    .event1 div:first-child { min-height: 200px; }
+}
+
+.event2 {
+    margin: 0;
+    display: flex;
+    padding:2%;
+    margin-bottom: 2rem;
+}
+.event2 h3 {
+    font-size: 1.5rem;
+    margin-top: 0;
+    font-weight: 400;
+    color:black;
+}
+.event2 p {
+    font-size: 1rem;
+    line-height: 1.4;
+    font-weight: 400;
+    color:black;
+}
+.event2 div:first-child {
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+}
+.event2 div:last-child {
+    margin: 0.5rem;
+    flex: 2;
+}
+.event2 p:last-of-type {
+    margin-bottom: 0;
+}
+.event2:first-of-type div:first-child {
+    background-image: url("images/NipponBudokan.jpg");
+    background-repeat: no-repeat;
+    background-size: 53%;
+}
+.event2:nth-child(odd) {
+    flex-direction: row-reverse;
+}
+
+@media all and (max-width: 600px) {
+    .event2 div { flex: 1; }
+}
+@media all and (max-width: 400px) {
+    .event2 { flex-direction: column; } 
+    .event2:nth-child(odd){
+        flex-direction: column;
+    }
+    .event2 div:first-child { min-height: 200px; }
+}
+
+.event3 {
+    margin: 0;
+    display: flex;
+    padding:2%;
+    margin-bottom: 2rem;
+}
+.event3 h3 {
+    font-size: 1.5rem;
+    margin-top: 0;
+    font-weight: 400;
+    color:black;
+}
+.event3 p {
+    font-size: 1rem;
+    line-height: 1.4;
+    font-weight: 400;
+    color:black;
+}
+.event3 div:first-child {
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+}
+.event3 div:last-child {
+    margin: 0.5rem;
+    flex: 2;
+}
+.event3 p:last-of-type {
+    margin-bottom: 0;
+}
+.event3:first-of-type div:first-child {
+    background-image: url("images/piaarenamm.jpg");
+    background-repeat: no-repeat;
+    background-size: 63%;
+}
+.event3:nth-child(odd) {
+    flex-direction: row;
+}
+
+@media all and (max-width: 600px) {
+    .event3 div { flex: 1; }
+}
+@media all and (max-width: 400px) {
+    .event3 { flex-direction: column; } 
+    .event3:nth-child(odd){
+        flex-direction: column;
+    }
+    .event3 div:first-child { min-height: 200px; }
 }
