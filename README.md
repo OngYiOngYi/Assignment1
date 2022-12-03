@@ -74,16 +74,22 @@ fandom: https://jpop.fandom.com/wiki/ClariS
 
 ### Media
 - The photos used in this site were obtained from ...
-https://soranews24.com/wp-content/uploads/sites/3/2020/10/CF-3.jpg
 
 https://img1.ak.crunchyroll.com/i/spire3/08dfdfb4877ef51f623d74113a03d6b11603253628_main.jpg
-
-https://leosigh.com/wp-content/uploads/2022/10/ClariS-performing-Alive-on-The-First-Take-channel.jpg
 
 https://i.ytimg.com/vi/SmvILpnM2U8/maxresdefault.jpg
 
 https://wallpapercave.com/wp/wp3860553.jpg
 
+https://static.wikia.nocookie.net/jpop/images/f/f6/ClariS_-_Careless_artist_illustration.png/revision/latest/scale-to-width-down/1000?cb=20210808063921
+
+https://animecorner.me/wp-content/uploads/2022/09/Claris-the-first-take.jpg
+
+https://res-1.cloudinary.com/jnto/image/upload/w_2064,h_1300,c_fill,f_auto,fl_lossy,q_auto/v1635746309/tokyo/H_00548_003
+
+https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Nippon_Budokan_2018.jpg/1200px-Nippon_Budokan_2018.jpg
+
+https://www.yokohamajapan.com/img_data/ts_375.jpg
 
 ### Acknowledgements
 
