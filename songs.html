@@ -1,6 +1,8 @@
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <meta charset="UTF-8">
         <title>Albums</title>
         <link rel = "stylesheet" href = "Normalize.css" type = "text/css">
         <link rel = "stylesheet" href = "normalize.css" type = "text/css">
@@ -37,7 +39,7 @@
                 color:#1DB954;
                 transition-duration: 0.5s;
             }
-            button{
+            .button{
                 text-decoration: none;
                 border: none;
                 background-color: #f44336;
@@ -46,7 +48,7 @@
                 font-size: 300%;
                 padding:0.5%;
             }
-            button:hover{
+            .button:hover{
                 background-color: white;
                 transition-duration: 1.3s;
             }
@@ -56,7 +58,7 @@
             }
             .oalb:hover{
                 color:red;
-                transition-duration: 1.5s;
+                transition-duration: 1s;
             }
 
             body{
@@ -65,6 +67,12 @@
             h3{
                 font-family: 'Lobster', cursive;
                 text-align: center;
+            }
+            @media all and (max-width: 400px) {
+                .center{
+                    font-size: 50%;
+
+                }
             }
         </style>
     </head>
@@ -107,7 +115,7 @@
                   <div></div>
                   <div>
                     <h3><a class="yes" href="https://open.spotify.com/album/4bRHjrsaHEtOVdxmZrFAy7?si=cv_FjBIyTZ-j6UrtQSm5Yg" target="_blank">Birthday [2012]</a></h3>
-                    <p>Certifications: RIAJ(Gold)</br>
+                    <p>Certifications: RIAJ(Gold)<br>
                         Birthday was released on April 11, 2012 in three editions: a regular CD version, a two-CD limited edition and a CD+DVD limited edition.For the week of April 9, 2012 on Oricon's weekly albums chart, Birthday was reported to have sold 53,909 copies in its first week of sales, peaking at No. 2, and charted for 28 weeks. In May 2012, Birthday was awarded a Gold Disc by the Recording Industry Association of Japan for having exceeded 100,000 copies shipped in a single year.
                     </p>
                   </div>
@@ -139,7 +147,7 @@
         </div><br><br>
         
         <div class="center">
-            <button><a class="oalb" href="songs2.html">Other Albums</a></button>
+            <div class="button"><a class="oalb" href="songs2.html">Other Albums</a></div>
         </div><br><br>
         
     </body>
