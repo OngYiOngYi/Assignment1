@@ -1,30 +1,20 @@
-const countdown = document.querySelector(".countdown");
+let slideIndex = 0;
+showSlides();
 
-const interval = setInterval(() => {
-  const deadline = new Date(2022, 11, 18, 13, 00, 00);
-
-  const current = new Date();
-
-  const diff = deadline - current;
-
-  const days = Math.floor(diff / (1000 * 60 * 60 * 24)) + "";
-  const hours = Math.floor((diff / (1000 * 60 * 60)) % 24) + "";
-  const minutes = Math.floor((diff / (1000 * 60)) % 60) + "";
-  const seconds = Math.floor((diff / 1000) % 60) + "";
-
-  countdown.innerHTML = `
-    <div data-content="Days">${days.length === 1 ? `0${days}` : days}</div>
-    <div data-content="Hours">${hours.length === 1 ? `0${hours}` : hours}</div>
-    <div data-content="Minutes">${
-      minutes.length === 1 ? `0${minutes}` : minutes
-    }</div>
-    <div data-content="Seconds">${
-      seconds.length === 1 ? `0${seconds}` : seconds
-    }</div>
-`;
-
-  if (diff < 0) {
-    clearInterval(interval);
-    countdown.innerHTML = "<h1>Event Ended</h1>";
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
   }
-}, 1000);
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}  //If slidescount goes above number of slides, slide goes back to 1  
+
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2500); // Change image every 2500 miliseconds
+}
