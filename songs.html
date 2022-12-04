@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <title>Albums</title>
-        <link rel = "stylesheet" href = "Normalize.css" type = "text/css">
+        <link rel = "stylesheet" href = "Style.css" type = "text/css">
         <link rel = "stylesheet" href = "normalize.css" type = "text/css">
         <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Passion+One:wght@700&display=swap" rel="stylesheet">
@@ -54,6 +54,155 @@
                     font-size: 50%;
 
                 }
+            }
+            .alb1 {
+                margin: 0;
+                display: flex;
+                padding:2%;
+                margin-bottom: 2rem;
+            }
+            .alb1 h3 {
+                font-size: 1.5rem;
+                margin-top: 0;
+                font-weight: 400;
+                color:black;
+            }
+            .alb1 p {
+                font-size: 1rem;
+                line-height: 1.4;
+                font-weight: 400;
+                color:black;
+            }
+            .alb1 div:first-child {
+                flex: 1;
+                background-size: cover;
+                background-position: center;
+            }
+            .alb1 div:last-child {
+                margin: 0.5rem;
+                flex: 2;
+            }
+            .alb1 p:last-of-type {
+                margin-bottom: 0;
+            }
+            .alb1:first-of-type div:first-child {
+                background-image: url("slideshow/Birthday_\(ClariS\).jpg");
+                background-repeat: no-repeat;
+                background-size: 38%;
+            }
+            .alb1:nth-child(odd) {
+                flex-direction: row;
+            }
+
+            @media all and (max-width: 600px) {
+                .alb1 div { flex: 1; }
+            }
+            @media all and (max-width: 400px) {
+                .alb1 { flex-direction: column; } 
+                .alb1:nth-child(odd){
+                    flex-direction: column;
+                }
+                .alb1 div:first-child { min-height: 200px; }
+            }
+
+            .alb2 {
+                margin: 0;
+                display: flex;
+                padding: 2%;
+                margin-bottom: 0rem;
+            }
+            .alb2 h3 {
+                font-size: 1.5rem;
+                margin-top: 0;
+                font-weight: 400;
+                color:black;
+            }
+            .alb2 p {
+                font-size: 1rem;
+                line-height: 1.4;
+                font-weight: 400;
+                color:black;
+            }
+            .alb2 div:first-child {
+                flex: 1;
+                background-size: cover;
+                background-position: center;
+            }
+            .alb2 div:last-child {
+                margin: 0.5rem;
+                flex: 2;
+            }
+            .alb2 p:last-of-type {
+                margin-bottom: 0;
+            }
+            .alb2:first-of-type div:first-child {
+                background-image: url("slideshow/PartyTime_\(Claris\).jpg");
+                background-size: 38%;
+                background-repeat: no-repeat;
+            }
+            .alb2:nth-child(odd) {
+                flex-direction: row;
+            }
+
+            @media all and (max-width: 600px) {
+                .alb2 div { flex: 1; }
+            }
+            @media all and (max-width: 400px) {
+                .alb2 { flex-direction: column; } 
+                .alb2:nth-child(odd){
+                    flex-direction: column;
+                }
+                .alb2 div:first-child { min-height: 200px; }
+            }
+
+            .alb3 {
+                margin: 0;
+                display: flex;
+                padding: 2%;
+                margin-bottom: 0rem;
+            }
+            .alb3 h3 {
+                font-size: 1.5rem;
+                margin-top: 0;
+                font-weight: 400;
+                color:black;
+            }
+            .alb3 p {
+                font-size: 1rem;
+                line-height: 1.4;
+                font-weight: 400;
+                color:black;
+            }
+            .alb3 div:first-child {
+                flex: 1;
+                background-size: cover;
+                background-position: center;
+            }
+            .alb3 div:last-child {
+                margin: 0.5rem;
+                flex: 2;
+            }
+            .alb3 p:last-of-type {
+                margin-bottom: 0;
+            }
+            .alb3:first-of-type div:first-child {
+                background-image: url("slideshow/SecondStory_\(Claris\).jpg");
+                background-size: 35%;
+                background-repeat: no-repeat;
+            }
+            .alb3:nth-child(odd) {
+                flex-direction: row-reverse;
+            }
+
+            @media all and (max-width: 600px) {
+                .alb3 div { flex: 1; }
+            }
+            @media all and (max-width: 400px) {
+                .alb3 { flex-direction: column; } 
+                .alb3:nth-child(odd){
+                    flex-direction: column;
+                }
+                .alb3 div:first-child { min-height: 200px; }
             }
         </style>
     </head>

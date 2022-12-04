@@ -4,30 +4,24 @@
     <head>
         <meta charset="UTF-8">
         <title>Assignment 1</title>
-        <link rel = "stylesheet" href = "Normalize.css" type = "text/css">
+        <link rel="icon" type="image/x-icon" href="./././/favicon.ico">
+        <link rel = "stylesheet" href = "Style.css" type = "text/css">
         <link rel = "stylesheet" href = "normalize.css" type = "text/css">
+        <link href="https://fonts.googleapis.com/css2?family=Solway:wght@500&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/2d132fda9d.js" crossorigin="anonymous"></script>
         
         <style>
             .site-title{
                 font-family: 'Great Vibes', cursive;
-                padding-top: 10%;
                 text-align: center;
-                position: relative;
-                font-size: 1000%;
-
+                font-size: 500%;
             }
 
             .site-description{
                 font-family: Arial, Helvetica, sans-serif;
                 text-align: center;
-                font-size: 150%;
-            }
-            
-            .flex-container{
-                display:flex;
-                justify-content: space-between;
+                font-size: 100%;
             }
 
             .fa-solid{
@@ -60,10 +54,10 @@
             .footer{
                 text-align: center;
                 color: black;
-                position: absolute; 
+                position: absolute;
                 width: 100%;
-                bottom: 2%;
             }
+            
             .sort{
                 list-style-type: none;
                 margin: 0;
@@ -73,21 +67,84 @@
                 display:inline-block;
                 margin: 0 10%;
             }
-            .center{
-                display:block;
-                justify-content: center;
+            .center1{
+                margin-top: 5%;
+                padding:3%;
+
             }
-            @media screen and (max-width: 414px) {
-                .bg{
-                    background-image: none;
+            .bg1{
+                background-image: url("slideshow/slideshow2.jpg");
+                width: 100%;
+                min-height: 100vh;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-attachment: fixed;
+                color: #525252;
+            }
+            .centre{
+                text-align: center;
+                margin: 0;
+                width: 100%;
+                font-size: 150%;
+                color: black;
+
+            }
+            .albumcontainer{
+                display:flex;
+                flex-direction: row;
+                justify-content: space-around;
+                
+            }
+            .album{
+                width:15%;
+            }
+            .flextext{
+                font-family: 'Solway', serif;
+                text-decoration: none;
+                text-align: center;
+                font-size: 200%;
+                color:black;
+            }
+            .flextext:hover{
+                color:red;
+                transition-duration: 1s;
+            }
+            .homealbums{
+                padding:5%;
+                background: rgba(220,220,220, 0.7) /* Light grey background */
+                
+            }
+            .profile{
+                width:20%;
+            }
+            .profilehorizontal{
+                width:30%;
+                height:50%;
+            }
+            @media all and (max-width: 400px) {
+                .footer{
+                    position: absolute;
+                    bottom:0;
                 }
+            }
+            .claris{
+                display: flex;
+                margin:auto;
+                justify-content: space-evenly;
+                align-items: center;
+                position: relative; 
+                padding:1.5%; 
+                top:0;
+                left:0;
+                right:0;
             }
         </style>
     </head>
 
-    <body>
-        <div>
-            <div>
+    <body  class = "bg1">
+        <div class="claris">
+            <div class="move">
                 <div id="mySidebar" class="sidebar">
                     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
                     <a href="index.html">Home</a>
@@ -112,16 +169,34 @@
                   }
                 </script>
             </div>
+
+            <div class="title">
+                <h1 class="site-title">ClariS</h1>
+            </div>
         </div>
 
-        <br>
-        <img class="bg">
-        <div class="center">
-            <div class="site-title" style="color:black ;">ClariS</div>
-            <div class="site-description" style="color:white">Japanese pop music duo formed in 2009 with Clara and Alice from Hokkaido</div>
+        <div class = "centre">
+            <p class="site-description">Japanese pop music duo formed in 2009 with Clara and Alice from Hokkaido</p>
         </div>
         
-        
+        <div class="homealbums">
+            <div style="width:100%; text-align:center"><h1><a class="flextext" href="profile.html">Profile</a></h1></div>
+            <div class="albumcontainer">
+                <img class="profilehorizontal" src="slideshow/connectfirsttake.jpg" alt="The First Take [Connect]">
+                <img class="profile" src="slideshow/slideshow5.jpg" alt="Band Illustration">
+                <img class="profilehorizontal" src="slideshow/alivefirsttake.jpg" alt="The First Take [Alive]">
+            </div>
+        </div><br><br><br><br><br><br>
+
+        <div class="homealbums">
+            <div style="width:100%; text-align:center"><h1><a class="flextext" href="profile.html">Album</a></h1></div>
+            <div class="albumcontainer">
+                <img class="album" src="slideshow/PartyTime_(Claris).jpg" alt="Album Party Time">
+                <img class="album" src="slideshow/Birthday_(ClariS).jpg" alt="Album Birthday">
+                <img class="album" src="slideshow/SecondStory_(Claris).jpg" alt="Album Second Story">
+            </div>
+        </div><br><br><br><br><br><br>
+
         <div class="footer">
             <ul class="sort">
                 <li class="l"><a href="https://twitter.com/claris_staff?lang=en" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>

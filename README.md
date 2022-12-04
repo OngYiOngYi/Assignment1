@@ -15,13 +15,15 @@ Include the Adobe XD wireframe as a folder. You can include the XD share url.
 
 ## Features
 
-On the index page, users can access the official social accounts of Claris. Users can navigate through the website using the menu sidebar.
+On the index page, users can access the official social accounts of Claris, users can navigate through the website using the menu sidebar.
 
 On the profile page, users can read about the member's history, band history, as well as some illustrations for the band.
 
-On the albums page, users can see some albums that Claris produced. The title of the album will bring users to Spotify, where they can listen to the album. The "Other Albums" button will bring users to another page, where users can see and listen to some songs that was used in tv-series or movies.
+On the albums page, users can see some albums that Claris produced, the title of the album will bring users to Spotify, where they can listen to the album.
 
-On the events page, users can check the new events that are going to happen. There is a countdown timer, counting down to the event. Image of the event location is also shown. If users click on the event name, they will be brought to the website where they can purchase tickets for that event. 
+ The "Other Albums" button will bring users to another page, where users can see and listen to some songs that was used in tv-series or movies.
+
+On the events page, users can check the new events that are going to happen, and here is a countdown timer, counting down to the event.
 
 ### Existing Features
 - Feature 1 - allows users X to achieve Y, by having them fill out Z
@@ -94,6 +96,15 @@ https://res-1.cloudinary.com/jnto/image/upload/w_2064,h_1300,c_fill,f_auto,fl_lo
 https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Nippon_Budokan_2018.jpg/1200px-Nippon_Budokan_2018.jpg
 
 https://www.yokohamajapan.com/img_data/ts_375.jpg
+
+https://i.scdn.co/image/ab67616d0000b273d6abe6d9735973246b27bf99
+
+https://i.scdn.co/image/ab67616d0000b27314a122f413670e5345d65653
+
+https://upload.wikimedia.org/wikipedia/en/thumb/0/03/Birthday_%28ClariS%29_album_cover.jpg/220px-Birthday_%28ClariS%29_album_cover.jpg
+
+https://i.ytimg.com/vi/LNw9BJNbxHQ/maxresdefault.jpg
+
 
 ### Acknowledgements
 

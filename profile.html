@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <title>Profile</title>
-        <link rel = "stylesheet" href = "Normalize.css" type = "text/css">
+        <link rel = "stylesheet" href = "Style.css" type = "text/css">
         <link rel = "stylesheet" href = "normalize.css" type = "text/css">
         <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@700&display=swap" rel="stylesheet">
@@ -152,6 +152,55 @@
                     border-right: none;
                 }
             }
+            .flex1 {
+                margin: 0;
+                display: flex;
+                border: none;
+                margin-bottom: 0rem;
+            }
+            .flex1 h3 {
+                font-size: 1.5rem;
+                margin-top: 0;
+                font-weight: 400;
+                color:black;
+            }
+            .flex1 p {
+                font-size: 1rem;
+                line-height: 1.4;
+                font-weight: 400;
+                color:black;
+            }
+            .flex1 div:first-child {
+                flex: 1;
+                background-size: cover;
+                background-position: center;
+            }
+            .flex1 div:last-child {
+                margin: 2rem;
+                flex: 2;
+            }
+            .flex1 p:last-of-type {
+                margin-bottom: 0;
+            }
+            .flex1:first-of-type div:first-child {
+                background-image: url("slideshow/slideshow5.jpg");
+                
+            }
+            .flex1:nth-child(odd) {
+                flex-direction: row;
+            }
+
+            @media all and (max-width: 600px) {
+                .flex1 div { flex: 1; }
+            }
+            @media all and (max-width: 400px) {
+                .flex1 { flex-direction: column; } 
+                .flex1:nth-child(odd){
+                    flex-direction: column;
+                }
+                .flex1 div:first-child { min-height: 200px; }
+            }
+            
         </style>
 
     </head>
