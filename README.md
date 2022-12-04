@@ -1,8 +1,6 @@
 # Assignment1
 
-One or two paragraphs providing an overview of your project. Tell us about your project.
-
-Essentially, this part is your sales pitch.
+This website was created to show the band, Claris's history, past and present members in the band, their albums and songs, as well as live events that are going to happen. Claris's official social accounts are also linked below to allow users to be able to access them easily. 
 
 ## Design Process
 
@@ -17,7 +15,13 @@ Include the Adobe XD wireframe as a folder. You can include the XD share url.
 
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+On the index page, users can access the official social accounts of Claris. Users can navigate through the website using the menu sidebar.
+
+On the profile page, users can read about the member's history, band history, as well as some illustrations for the band.
+
+On the albums page, users can see some albums that Claris produced. The title of the album will bring users to Spotify, where they can listen to the album. The "Other Albums" button will bring users to another page, where users can see and listen to some songs that was used in tv-series or movies.
+
+On the events page, users can check the new events that are going to happen. There is a countdown timer, counting down to the event. Image of the event location is also shown. If users click on the event name, they will be brought to the website where they can purchase tickets for that event. 
 
 ### Existing Features
 - Feature 1 - allows users X to achieve Y, by having them fill out Z
