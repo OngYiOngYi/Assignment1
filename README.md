@@ -32,6 +32,7 @@ profile.html - no error
 songs.html - no error
 songs2.html - only spotify embed error, but code works
 event.html - no error
+Style.css - no error
 
 ## Credits
 
