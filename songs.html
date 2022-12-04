@@ -52,9 +52,10 @@
             @media all and (max-width: 414px) {
                 .center{
                     font-size: 50%;
-
                 }
             }
+
+            /* All same format */
             .alb1 {
                 margin: 0;
                 display: flex;
@@ -73,23 +74,28 @@
                 font-weight: 400;
                 color:black;
             }
+            /* The first <div> inside the module is empty, but will be “filled” with a background image */
             .alb1 div:first-child {
                 flex: 1;
                 background-size: cover;
                 background-position: center;
             }
+            /* The first div is given a “visual weight” of 1. As the second div is given a value of 2, it will always be twice as wide as the first by default */
             .alb1 div:last-child {
                 margin: 0.5rem;
                 flex: 2;
             }
+            /* The last paragraph inside the div is styled to have no margin-bottom, to ensure that it does not contribute to the height of the element */
             .alb1 p:last-of-type {
                 margin-bottom: 0;
             }
+            /* The module elements are given their images via :first-of-type or nth-of-type pseudo-class selectors */
             .alb1:first-of-type div:first-child {
                 background-image: url("slideshow/Birthday_\(ClariS\).jpg");
                 background-repeat: no-repeat;
                 background-size: 38%;
             }
+            /* Layout */
             .alb1:nth-child(odd) {
                 flex-direction: row;
             }
@@ -104,7 +110,7 @@
                 }
                 .alb1 div:first-child { min-height: 200px; }
             }
-
+            /* Same as above except flex direction */
             .alb2 {
                 margin: 0;
                 display: flex;
@@ -154,7 +160,7 @@
                 }
                 .alb2 div:first-child { min-height: 200px; }
             }
-
+            /* Same as above except flex direction */
             .alb3 {
                 margin: 0;
                 display: flex;
@@ -210,6 +216,7 @@
     <body>
         <div class="flex-container">
             <div class="move">
+                <!-- Contents in menu sidebar  -->
                 <div id="mySidebar" class="sidebar">
                     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
                     <a href="index.html">Home</a>
@@ -217,17 +224,20 @@
                     <a href="songs.html">Albums</a>
                     <a href="event.html">Events</a>
                 </div>
-                  
+                
+                <!-- Menu button -->
                 <div id="main">
                     <button class="openbtn" onclick="openNav()">☰ Menu</button>  
                 </div>
-                  
+                
+                <!-- Open & Close menu button -->
                 <script>
+                  /* Set the width of the sidebar to 250px and the left margin of the page content to 250px */
                   function openNav() {
                     document.getElementById("mySidebar").style.width = "250px";
                     document.getElementById("main").style.marginLeft = "250px";
                   }
-                  
+                  /* Set the width of the sidebar to 0 and the left margin of the page content to 0 */
                   function closeNav() {
                     document.getElementById("mySidebar").style.width = "0";
                     document.getElementById("main").style.marginLeft= "0";
@@ -242,6 +252,7 @@
 
         <div class="column1">
             <figure class="alb1">
+                  <!-- make image not appear behind text -->
                   <div></div>
                   <div>
                     <h3><a class="yes" href="https://open.spotify.com/album/4bRHjrsaHEtOVdxmZrFAy7?si=cv_FjBIyTZ-j6UrtQSm5Yg" target="_blank">Birthday [2012]</a></h3>
@@ -254,6 +265,7 @@
 
         <div class="column3">
             <figure class="alb3">
+                  <!-- make image not appear behind text -->
                   <div></div>
                   <div>
                     <h3><a class="yes" href="https://open.spotify.com/album/33dTcMAujg3u1lpBsbUsWx?si=oY_CK3GuSyWIvjtVL7KaLQ" target="_blank">Second Story [2013]</a></h3>
@@ -266,6 +278,7 @@
 
         <div class="column2">
             <figure class="alb2">
+                  <!-- make image not appear behind text -->
                   <div></div>
                   <div>
                     <h3><a class="yes" href="https://open.spotify.com/album/66y4Wxg2FCFTr6g67NXfYY?si=8GMDbkT2QiKtIHV-ej5s4w" target="_blank">Party Time [2014]</a></h3>

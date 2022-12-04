@@ -47,6 +47,7 @@
                     padding:5%;
                 }
             }
+            /* All same format */
             .ani1 {
                 margin: 0;
                 display: flex;
@@ -65,23 +66,28 @@
                 font-weight: 400;
                 color:black;
             }
+            /* The first <div> inside the module is empty, but will be “filled” with a background image */
             .ani1 div:first-child {
                 flex: 1;
                 background-size: cover;
                 background-position: center;
             }
+            /* The first div is given a “visual weight” of 1. As the second div is given a value of 2, it will always be twice as wide as the first by default */
             .ani1 div:last-child {
                 margin: 0.5rem;
                 flex: 2;
             }
+            /* The last paragraph inside the div is styled to have no margin-bottom, to ensure that it does not contribute to the height of the element */
             .ani1 p:last-of-type {
                 margin-bottom: 0;
             }
+            /* The module elements are given their images via :first-of-type or nth-of-type pseudo-class selectors */
             .ani1:first-of-type div:first-child {
                 background-image: url("images/oreimo.jpg");
                 background-repeat: no-repeat;
                 background-size: 100%;
             }
+            /* Layout */
             .ani1:nth-child(odd) {
                 flex-direction: row;
             }
@@ -96,7 +102,7 @@
                 }
                 .ani1 div:first-child { min-height: 200px; }
             }
-
+            /* Same as above except flex direction */
             .ani2 {
                 margin: 0;
                 display: flex;
@@ -146,7 +152,7 @@
                 }
                 .ani2 div:first-child { min-height: 200px; }
             }
-
+            /* Same as above except flex direction */
             .ani3 {
                 margin: 0;
                 display: flex;
@@ -196,7 +202,7 @@
                 }
                 .ani3 div:first-child { min-height: 200px; }
             }
-
+            /* Same as above except flex direction */
             .ani4 {
                 margin: 0;
                 display: flex;
@@ -246,7 +252,7 @@
                 }
                 .ani4 div:first-child { min-height: 200px; }
             }
-
+            /* Same as above except flex direction */
             .ani5 {
                 margin: 0;
                 display: flex;
@@ -310,6 +316,7 @@
 
         <div class="column1">
             <figure class="ani1">
+                  <!-- make image not appear behind text -->
                   <div></div>
                   <div>
                     <h3><a class="yes" href="https://open.spotify.com/track/3qLPnTQYkTObObPgncJQyS?si=aea78d263e5149e5" target="_blank">Oreimo [Irony]</a></h3>
@@ -323,6 +330,7 @@
 
         <div class="column2">
             <figure class="ani2">
+                  <!-- make image not appear behind text -->
                   <div></div>
                   <div>
                     <h3><a class="yes" href="https://open.spotify.com/track/3lVjrhRTt8nQ99kan7pOmj?si=1e88c17d51f548f5" target="_blank">Nisekoi [Click]</a></h3>
@@ -336,6 +344,7 @@
 
         <div class="column3">
             <figure class="ani3">
+                  <!-- make image not appear behind text -->
                   <div></div>
                   <div>
                     <h3><a class="yes" href="https://open.spotify.com/playlist/1rNXGuLkQTpIY2hm89LGDn?si=bd901cfc42c645dc" target="_blank">Madoka Magica [Connect] / [Luminous] / [Colorful]</a></h3>
@@ -349,6 +358,7 @@
 
         <div class="column5">
             <figure class="ani5">
+                  <!-- make image not appear behind text -->
                   <div></div>
                   <div>
                     <h3><a class="yes" href="https://open.spotify.com/track/3Un2d5mEp5yLqaITkb1mS8?si=35b7f25736434a41" target="_blank">Eromanga Sensei [Hitorigoto]</a></h3>
@@ -362,7 +372,8 @@
         
         <div class="column4">
             <figure class="ani4">
-                  <div class="lycoreco"></div>
+                  <!-- make image not appear behind text -->
+                  <div></div>
                   <div>
                     <h3><a class="yes" href="https://open.spotify.com/track/5cBmwNnKGLPRCQWzFS0r0Y?si=a9064940c9ab4670" target="_blank">Lycoris Recoil [Alive]</a></h3>
                     <p>Lycoris Recoil Opening Song<br> 
@@ -371,7 +382,6 @@
                     </p>
                   </div>
             </figure>
-        </div>
-        
+        </div>    
     </body>
 </html>

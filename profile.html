@@ -203,6 +203,7 @@
     <body>
         <div class="flex-container">
             <div class="move">
+                <!-- Contents in menu sidebar  -->
                 <div id="mySidebar" class="sidebar">
                     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
                     <a href="index.html">Home</a>
@@ -211,16 +212,20 @@
                     <a href="event.html">Events</a>
                 </div>
                   
+                <!-- Menu button -->
                 <div id="main">
                     <button class="openbtn" onclick="openNav()">☰ Menu</button>  
                 </div>
-                  
+                
+                <!-- Open & Close menu button -->
                 <script>
+                    /* Set the width of the sidebar to 250px and the left margin of the page content to 250px */
                   function openNav() {
                     document.getElementById("mySidebar").style.width = "250px";
                     document.getElementById("main").style.marginLeft = "250px";
                   }
-                  
+
+                  /* Set the width of the sidebar to 0 and the left margin of the page content to 0 */
                   function closeNav() {
                     document.getElementById("mySidebar").style.width = "0";
                     document.getElementById("main").style.marginLeft= "0";
@@ -235,6 +240,7 @@
         
         <div class="column1">
             <figure class="flex1">
+                <!-- make image not appear behind text -->
                   <div></div>
                   <div>
                     <h3 style="font-size:300%">CLariS</h3>
@@ -266,8 +272,10 @@
             </div>
         </div>
 
+        <!-- Slideshow container -->
         <div class="slideshow-container">
-
+        
+         <!-- Full-width images with number and caption text -->
         <div class="mySlides fade">
             <div class="numbertext" style="color:black">1 / 4</div>
             <img src="slideshow/slideshow1.png" style="width:100%">
@@ -292,12 +300,14 @@
             <div class="text" style="color:black">The First Take [Alive]</div>
         </div>
         
+        <!-- Next and previous buttons -->
         <a class="prev" onclick="plusSlides(-1)">❮</a>
         <a class="next" onclick="plusSlides(1)">❯</a>
         
         </div>
         <br>
-            
+        
+        <!-- The dots/circles -->
         <div style="text-align:center">
             <span class="dot" onclick="currentSlide(1)"></span> 
             <span class="dot" onclick="currentSlide(2)"></span> 

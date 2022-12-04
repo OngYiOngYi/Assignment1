@@ -22,7 +22,7 @@
             .eventtitle{
                 text-align: center;
             }
-            #demo{
+            #timer1{
                 font-size: 250%;
             }
             #timer2{
@@ -35,6 +35,8 @@
                 color:black;
                 font-size: 100%;
             }
+
+            /* All same format */
             .event1 {
                 margin: 0;
                 display: flex;
@@ -53,23 +55,28 @@
                 font-weight: 400;
                 color:black;
             }
+            /* The first <div> inside the module is empty, but will be “filled” with a background image */
             .event1 div:first-child {
                 flex: 1;
                 background-size: cover;
                 background-position: center;
             }
+            /* The first div is given a “visual weight” of 1. As the second div is given a value of 2, it will always be twice as wide as the first by default */
             .event1 div:last-child {
                 margin: 0.5rem;
                 flex: 2;
             }
+            /* The last paragraph inside the div is styled to have no margin-bottom, to ensure that it does not contribute to the height of the element */
             .event1 p:last-of-type {
                 margin-bottom: 0;
             }
+            /* The module elements are given their images via :first-of-type or nth-of-type pseudo-class selectors */
             .event1:first-of-type div:first-child {
                 background-image: url("images/tokyodome1.webp");
                 background-repeat: no-repeat;
                 background-size: 70%;
             }
+            /* Layout */
             .event1:nth-child(odd) {
                 flex-direction: row;
             }
@@ -84,7 +91,7 @@
                 }
                 .event1 div:first-child { min-height: 200px; }
             }
-
+            /* Same as above except flex direction */
             .event2 {
                 margin: 0;
                 display: flex;
@@ -134,7 +141,7 @@
                 }
                 .event2 div:first-child { min-height: 200px; }
             }
-
+            /* Same as above except flex direction */
             .event3 {
                 margin: 0;
                 display: flex;
@@ -225,7 +232,8 @@
                   <div></div>
                     <div>
                     <h3 class="eventtitle"><a class="yes" href="https://eplus.jp/sf/detail/1118690001-P0030030?utm_source=open.spotify.com&utm_medium=referral&P1=4742" target="_blank">Claris Live Event [Tokyo Dome]</a></h3>
-                    <p id="demo"></p>
+                    <!-- Call id="timer1" from timer1.js -->
+                    <p id="timer1"></p>
                     </div>
             </figure>
         </div>
@@ -235,8 +243,8 @@
                   <div></div>
                   <div>
                     <h3 class="eventtitle"><a class="yes" href="https://eplus.jp/sf/detail/0472810001-P0030016?utm_source=open.spotify.com&utm_medium=referral&P1=4742" target="_blank">Nippon Budokan</a></h3>
+                    <!-- Call id="timer1" from timer2.js -->
                     <p id="timer2"></p>
- 
                   </div>
             </figure>
         </div>
@@ -246,6 +254,7 @@
                   <div></div>
                   <div>
                     <h3 class="eventtitle"><a class="yes" href="https://eplus.jp/sf/detail/3364630001-P0030003?utm_source=open.spotify.com&utm_medium=referral&P1=4742" target="_blank">Hyperdimension Music Festival [Yokohama]</a></h3>
+                    <!-- Call id="timer1" from timer3.js -->
                     <p id="timer3"></p>
                   </div>
             </figure>
