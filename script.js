@@ -12,7 +12,7 @@ function showSlides() {
     slides[i].style.display = "none";   // Hide element without deleting 
   }
   slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}  //If slidescount goes above number of slides, slide goes back to 1  
+  if (slideIndex > slides.length) {slideIndex = 1}  // Goes back to first slide if current one is last
 
   // Dots for current slide
   for (i = 0; i < dots.length; i++) {
@@ -21,5 +21,5 @@ function showSlides() {
 
   slides[slideIndex-1].style.display = "block";  // Start on new line
   dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 2500); // Change image every 2500 miliseconds
+  setTimeout(showSlides, 2500); // Change image every 2.5 seconds
 }
