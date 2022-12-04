@@ -6,10 +6,6 @@ This website was created to show the band, Claris's history, past and present me
 
 - As a Fan of the band, I want to have a place where i can have all the information at the same place, so that I can check out the latest event that the band is having.
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. 
-These files should themselves either be included as a pdf file in the project itself (in an separate directory)
-Include the Adobe XD wireframe as a folder. You can include the XD share url. 
-
 ## Features
 
 On the index page, users can access the official social accounts of Claris, users can navigate through the website using the menu sidebar.
@@ -30,8 +26,12 @@ Javascript - Menu, Slideshow, Timer
 Font-Awesome - Icons to social meadia
 
 ## Testing
-
-
+w3 validator
+index.html - no error 
+profile.html - no error
+songs.html - no error
+songs2.html - only spotify embed error, but code works
+event.html - no error
 
 ## Credits
 
